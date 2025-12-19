@@ -8,5 +8,8 @@ public class Vehiculo {
 	
 	public double preciohora;
 	
-
+	public Vehiculo( String marca, String modelo) {
+		this.marca = marca;
+		this.modelo = modelo;
+	}
 }
